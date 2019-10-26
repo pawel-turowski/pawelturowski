@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e940ff-bd64-4be5-a8c8-f9874aa53acf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BMI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ciągi liczbowe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czy _liczba_jest całkowita.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czy_liczba_jest_pierwsza.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizzbuzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/french deck.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funkcja_kwadratowa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/izogramy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lotto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mineral_waters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pierwszy program.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem collatza.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/romanum_digital.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/silnia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stopnie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/szyfr_płotowy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabliczka_mnożenia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test na ojcostwo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zamiana wartośći.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zipcodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Liczby_pierwsze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/ćwiczenia z sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haslo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inwentaryzacja.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/magicball.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nieparzyste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pierwszy_program_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program_geometria/circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program_geometria/geometria.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program_geometria/rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sortowanie_nazwisk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speed_converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,47 +25,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/.idea/pawelturowski.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="215" />
-    <option name="y" value="295" />
-    <option name="width" value="1460" />
-    <option name="height" value="820" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pawelturowski" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pawelturowski" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1SZPJOf2qg6yRdYyHKgtiW8QBtX" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pawel\pawelturowski" />
+      <recent name="C:\Users\pawel\pawelturowski\program_geometria" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,6 +73,127 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.zadanie 4">
+    <configuration name="inventory" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pawelturowski" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AppData/Local/Temp/Rar$DIa768.33158" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AppData/Local/Temp/Rar$DIa768.33158/inventory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="magic8Ball" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pawelturowski" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AppData/Local/Temp/Rar$DIa768.43356" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AppData/Local/Temp/Rar$DIa768.43356/magic8Ball.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="magicball" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pawelturowski" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magicball.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sortowanie_nazwisk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pawelturowski" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sortowanie_nazwisk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zadanie 4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pawelturowski" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PycharmProjects/zadania z programowania" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PycharmProjects/zadania z programowania/zadanie 4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.zadanie 4" />
+        <item itemvalue="Python.magicball" />
+        <item itemvalue="Python.magic8Ball" />
+        <item itemvalue="Python.inventory" />
+        <item itemvalue="Python.sortowanie_nazwisk" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -95,29 +204,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569769644112</updated>
+      <workItem from="1571768073638" duration="2257000" />
+      <workItem from="1572080936218" duration="3046000" />
     </task>
+    <task id="LOCAL-00001" summary="repozytorium w trakcie trwania kursu">
+      <created>1569770037051</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569770037051</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="repozytorium w trakcie trwania kursu" />
+    <option name="LAST_COMMIT_MESSAGE" value="repozytorium w trakcie trwania kursu" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pawelturowski$zadanie_4.coverage" NAME="zadanie 4 Coverage Results" MODIFIED="1572083847636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PycharmProjects/zadania z programowania" />
+    <SUITE FILE_PATH="coverage/pawelturowski$geometria__1_.coverage" NAME="geometria (1) Coverage Results" MODIFIED="1572082587196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/program_geometria" />
+    <SUITE FILE_PATH="coverage/pawelturowski$example.coverage" NAME="example Coverage Results" MODIFIED="1571768490025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pawelturowski$magicball.coverage" NAME="magicball Coverage Results" MODIFIED="1572083592184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pawelturowski$sortowanie_nazwisk.coverage" NAME="sortowanie_nazwisk Coverage Results" MODIFIED="1572083005642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pawelturowski$geometry.coverage" NAME="geometry Coverage Results" MODIFIED="1572082314147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Documents/Helion/cwiczenia z ftpa helion.pl/Python_dla_zupelnie_poczatkujacych/Rozdzial05" />
+    <SUITE FILE_PATH="coverage/pawelturowski$magic8Ball.coverage" NAME="magic8Ball Coverage Results" MODIFIED="1572083476482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../AppData/Local/Temp/Rar$DIa768.43356" />
+    <SUITE FILE_PATH="coverage/pawelturowski$inventory.coverage" NAME="inventory Coverage Results" MODIFIED="1572083361047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../AppData/Local/Temp/Rar$DIa768.33158" />
+    <SUITE FILE_PATH="coverage/pawelturowski$geometria.coverage" NAME="geometria Coverage Results" MODIFIED="1572082365451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pawelturowski$sort_names.coverage" NAME="sort_names Coverage Results" MODIFIED="1572082919943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Documents/Helion/cwiczenia z ftpa helion.pl/Python_dla_zupelnie_poczatkujacych/Rozdzial03" />
+    <SUITE FILE_PATH="coverage/pawelturowski$pierwszy_program_v2.coverage" NAME="pierwszy_program_v2 Coverage Results" MODIFIED="1571770496245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pawelturowski$speed_converter.coverage" NAME="speed_converter Coverage Results" MODIFIED="1572081828521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pawelturowski$listings_ch12.coverage" NAME="listings_ch12 Coverage Results" MODIFIED="1571770549956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Documents/Helion/cwiczenia z ftpa helion.pl" />
+    <SUITE FILE_PATH="coverage/pawelturowski$beersong.coverage" NAME="beersong Coverage Results" MODIFIED="1571771065800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../AppData/Local/Temp/Rar$DIa16224.4424" />
   </component>
 </project>

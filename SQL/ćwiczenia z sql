@@ -1,0 +1,256 @@
+create database sda_project;
+
+create table sda_project.customers
+(
+	cus_id smallint unsigned not null auto_increment,
+    cus_name varchar(64) not null,
+    cus_surname varchar(64) not null,
+    cus_phone varchar(9),
+    cus_email varchar(8),
+    cus_email2 varchar(8),
+    primary key (cus_id)
+);
+alter table sda_project.customers drop cus_email2;
+alter table sda_project.customers modify column cus_email varchar(32);
+
+create table sda_project.categories
+(
+	cat_id smallint unsigned not null auto_increment,
+    cat_name varchar(32) not null,
+    cat_desc varchar(64) default 'brak opisu kategorii',
+    primary key (cat_id)
+);
+
+
+create table sda_project.books
+(
+	bk_id varchar(5) not null,
+    bk_cat_id  smallint unsigned not null,
+    bk_name varchar(64) not null,
+    bk_author varchar(64) not null,
+    bk_release varchar(4) not null,
+    bk_publisher varchar(32) not null,
+    primary key (bk_id),
+    foreign key (bk_cat_id) references sda_project.categories(cat_id)
+);
+
+create table sda_project.rents
+(
+	rn_id smallint unsigned not null auto_increment,
+    rn_bk_id varchar(5) not null,
+    rn_cus_id smallint unsigned not null,
+    rn_rent_date date not null,
+    primary key (rn_id),
+    foreign key (rn_bk_id) references sda_project.books(bk_id),
+    foreign key (rn_cus_id) references sda_project.customers(cus_id)
+);
+
+CREATE TABLE sda_project.departments
+(
+    dep_id          SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    dep_name        VARCHAR(64) NOT NULL UNIQUE,
+    dep_location    VARCHAR(128) NOT NULL,
+    PRIMARY KEY (dep_id)
+);
+
+alter table sda_project.departments add column dep_city varchar(64) not null;
+
+CREATE TABLE sda_project.employees
+(
+    ep_id           SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    ep_man_id       SMALLINT UNSIGNED NOT NULL,
+    ep_dep_id       SMALLINT UNSIGNED,
+    ep_name         VARCHAR(64) NOT NULL,
+    ep_surname      VARCHAR(64) NOT NULL,
+    ep_hire_date    DATE NOT NULL,
+    ep_salary       SMALLINT UNSIGNED NOT NULL,
+    ep_phone        VARCHAR(9),
+    ep_email        VARCHAR(32) NOT NULL UNIQUE,
+    PRIMARY KEY (ep_id),
+    FOREIGN KEY (ep_dep_id) REFERENCES sda_project.departments(dep_id),
+    FOREIGN KEY (ep_man_id) REFERENCES sda_project.employees(ep_id)
+);
+alter table sda_project.employees modify column ep_man_id smallint unsigned;
+
+ALTER TABLE sda_project.departments ADD dep_city VARCHAR(64) NOT NULL;
+
+
+alter table sda_project.rents add column rn_return_date  date;
+
+insert into sda_project.customers(cus_name, cus_surname, cus_phone, cus_email) values ('Adam', 'Nowak', '371980245', 'adam.nowak@email.pl');
+
+insert into sda_project.customers(cus_name, cus_surname, cus_phone, cus_email) 
+values ('Ewelina', 'Oczytana', '244908121', NULL),
+ ('Jakub', 'MOL', '322657100', 'jakub_mol@o3.pl');
+ 
+INSERT INTO sda_project.categories
+VALUES (NULL, 'Fantastyka', default),
+    (NULL, 'Sensacyjne i Kryminały', default),
+    (NULL, 'Naukowe', default),
+    (NULL, 'Dla dzieci', default);
+    
+insert into sda_project.books(bk_id, bk_cat_id, bk_name, bk_author, bk_release, bk_publisher) 
+values ( 'JP101','1' , 'Ja, Inkwyzitor. Przeklęte Krainy', 'Jacek Piekara', '2019', 'Fabryka Słów'), 
+('SJM01','1' , 'Szklany Tron. Tom 5.5. Wieża świtu', 'Sarah J. Mas', '2018', 'Uroboros'),
+('AS210','1' ,  'Wiedzmin Tom 1. Ostatnie życzenie', 'Andrzej Sapkowski', '2014', 'SuperNowa'); 
+
+INSERT INTO sda_project.departments(dep_id, dep_name, dep_city, dep_location)
+VALUES (NULL, 'Alpha', 'Warszawa', 'Ostatnia 10/20'),
+    (NULL, 'Beta', 'Warszawa', 'Cukierkowa 65'),
+    (NULL, 'Gamma', 'Gdynia', 'Wojska Polskiego 1'),
+    (NULL, 'Epsilon', 'Lodz', 'Wektorowa 1/70'),
+    (NULL, 'Omega', 'Lodz', 'Zamkowa 23/20');
+    
+INSERT INTO sda_project.employees
+VALUES (NULL, NULL, 1, 'Jan', 'Boss', '2018-01-01', 15000, '154978100', 'jan_boss@alpha.pl');
+
+INSERT INTO sda_project.employees
+VALUES (NULL, 1, 2, 'Ewelina', 'Wice', '2018-02-01', 12500, '345890112', 'ewelina_wice@beta.pl');
+INSERT INTO sda_project.employees
+VALUES (NULL, 1, 2, 'Agnieszka', 'Kowalik', '2018-04-01', 12500, '123567455', 'agnieszka_kowalik@beta.pl');
+-- Department 3
+INSERT INTO sda_project.employees
+VALUES (NULL, 3, 3, 'Adam', 'Nowakowski', '2018-07-01', 3500, '234675112', 'adam_nowakowski@gamma.pl');
+INSERT INTO sda_project.employees
+VALUES (NULL, 3, 3, 'Jakub', 'Nazwisko', '2018-04-01', 3500, '900767433', 'jakub_nazwisko@gamma.pl');
+-- Department 4
+INSERT INTO sda_project.employees
+VALUES (NULL, 2, 4, 'Karolina', 'Polka', '2019-01-01', 3500, '231564786', 'karolina_polka@epsilon.pl');
+INSERT INTO sda_project.employees
+VALUES (NULL, 5, 4, 'Jakub', 'Drugi', '2019-03-01', 4000, '111222333', 'jakub_drugi@epsilon.pl');
+INSERT INTO sda_project.employees
+VALUES (NULL, 5, 4, 'Karolina', 'Wierna', '2019-05-01', 5000, '123456980', 'karolina_wierna@epsilon.pl');
+
+select * from sda_project.customers;
+
+select * from sda_project.books limit 3;
+
+select distinct ep_id from sda_project.employees;
+
+select ep_name imię from sda_project.employees;
+
+select ep_surname nazwisko from sda_project.employees;
+
+select * from sda_project.employees order by ep_surname;
+
+select concat( ep_name, ' ', ep_surname) as pracownik from sda_project.employees;
+
+select length(dep_name) from sda_project.departments;
+
+select substring(cus_phone, 4, 3) from sda_project.customers;
+
+select upper(bk_name) from sda_project.books;
+
+select rpad(dep_location, 4, 2 ) from sda_project.departments;
+
+select now();
+
+select datediff(2019-09-15, 1990-10-28);
+
+select date(ep_hire_date) from sda_project.employees; 
+
+select min(ep_salary) from sda_project.employees;
+
+select max(ep_salary) from sda_project.employees;
+
+select avg(bk_release) from sda_project.books;
+
+select count(*), ep_dep_id from sda_project.employees
+group by  ep_dep_id;
+
+select * from sda_project.employees where ep_salary >= 10000;
+
+select * from sda_project.books where bk_name not like 'J%';
+
+select * from sda_project.books where bk_author like 'Andrzej Sapkowski' or bk_publisher like 'Dolnośląskie';
+
+select * from sda_project.rents where rn_rent_date != 2019-03-01;
+
+select * from sda_project.rents where month(rn_rent_date) and year(rn_rent_date) between 5 and 7;
+
+
+select cus_id
+from sda_project.customers 
+join sda_project.rents;
+
+
+select bk_name 
+from sda_project.books 
+where bk_release > (select avg(bk_release) from sda_project.books);
+
+select ep_surname
+from sda_project.employees e1
+where e1.ep_salary > (select max(ep_salary) from sda_project.employees e2
+					 where e2.ep_id = e1.ep_man_id);
+
+set sql_safe_updates = 0;
+
+select * from sda_project.employees;
+
+update sda_project.employees
+    set ep_hire_date = '2019-01-01'
+where 1=1;
+
+select * from sda_project.departments;
+
+update sda_project.departments
+    set dep_name = 'Ajin'
+where dep_name = 'Alpha';
+
+select * from sda_project.customers;
+update sda_project.customers
+    set cus_phone = 123456789
+where cus_id = 3;
+
+select * from sda_project.employees;
+update sda_project.employees
+    set ep_salary = ep_salary * 1.1
+where ep_man_id = 2 or ep_dep_id = 4;
+ 
+truncate table sda_project.customers;
+
+select * from sda_project.departments;
+
+delete from sda_project.departments
+where dep_id = 5;
+
+create index pk_emp_idx 
+on sda_project.employees(ep_id);
+
+show index from sda_project.employees;
+
+create index full_name_cust_idx 
+on sda_project.customers(cus_name, cus_surname);
+
+show index from sda_project.customers;
+
+create unique index unikatowy_idx 
+on sda_project.rents(rn_bk_id);
+ 
+show index from sda_project.rents;
+
+create fulltext index fulltext_idx
+on sda_project.books(bk_author);
+
+
+create view emp_man_2 as
+select ep_name, ep_surname
+from sda_project.employees
+where ep_man_id = 2;
+
+
+
+create function f2( w int )
+returns int deterministic
+    return w * w;
+
+select f2(5);
+
+create procedure konkatynuj(in text1 varchar(64),
+							in text2 varchar(64),
+                            out text3 varchar(128))
+
+select concat(text1, text2) into text3 ;
+
+
+select * from mysql.user;
