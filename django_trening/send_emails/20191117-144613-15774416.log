@@ -1,0 +1,15 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?q?Reset_has=C5=82a_dla_konta_na_stronie_127=2E0=2E0=2E1=3A8000?=
+From: webmaster@localhost
+To: pawel1546@gmail.com
+Date: Sun, 17 Nov 2019 13:46:13 -0000
+Message-ID: <157399837301.14464.12147433720387367833@LAPTOP-5U448I6K>
+
+Serwis otrzymał żądanie wyzerowanie hasła dla adresu pawel1546@gmail.com
+Kliknij w poniższy link:
+http://127.0.0.1:8000/accounts/reset/MQ/5bi-e301102178f0e5cfdb02/
+Twoja nazwa użytkownika {user.get_username}
+-------------------------------------------------------------------------------

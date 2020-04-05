@@ -1,0 +1,15 @@
+{% extends "news/base.html" %}
+
+{% block content %}
+    <style>
+    h5{color : orangered}
+    </style>
+{% if user.is_authenticated %}
+    <h5><b>login:</b> {{ user.username }}</h5>
+    <h5><b>email:</b> {{ user.email }}</h5>
+    <h5><b>imię:</b> {{ user.first_name }}</h5>
+    <h5><b>nazwisko:</b> {{ user.last_name }}</h5>
+
+{% endif %}
+
+{% endblock %}

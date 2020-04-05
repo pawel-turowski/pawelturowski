@@ -1,0 +1,52 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/news.css' %}" />
+
+    <style>
+            body {  background-color: silver; color: white; padding: 20px; font-family: Arial, Verdana, sans-serif;}
+            a:link{ color: darkgray; text-decoration: none}
+            a:visited{ color: darkred; text-decoration: none}
+            a:hover{color:lightgrey; background-color: silver; text-decoration: underline }
+             aside { background: silver; width:150px; float: right; height: 100%;}
+         nav ul li{
+            display: inline;
+            margin: 20px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header></header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'home_page' %}">Home</a></li>
+            <li><a href="{% url 'post_list' %}">Lista postów</a></li>
+            <li><a href="{% url 'author' %}">Informacje o autorze</a></li>
+        </ul>
+    </nav>
+    <section>
+        {% block content %}{% endblock %}
+    </section>
+    <footer></footer>
+ {% if user.is_authenticated %}
+    <p>Witaj {{ user.username }}<br />
+        <a href="{% url 'logout' %}">Wyloguj</a></p>
+{% else %}
+     <aside> <h6><a href="{% url 'login' %}">Zaloguj</a></h6>
+{% endif %}
+    <h6 ><a href="{% url 'signup' %}">Rejestracja</a> </h6>
+    <h6><a href="{% url 'my_account' %}">Moje konto</a> </h6><aside>
+
+
+
+
+</body>
+</html>

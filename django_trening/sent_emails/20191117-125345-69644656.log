@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: pawel1546@gmail.com
+Date: Sun, 17 Nov 2019 11:53:45 -0000
+Message-ID: <157399162576.4204.13607607202857963701@LAPTOP-5U448I6K>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/accounts/reset/MQ/5bi-eaccc2b48eb1445d39b3/
+
+Your username, in case you've forgotten: pawel1546
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

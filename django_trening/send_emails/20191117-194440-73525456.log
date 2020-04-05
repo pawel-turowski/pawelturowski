@@ -1,0 +1,15 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?q?Reset_has=C5=82a_dla_konta_na_stronie_127=2E0=2E0=2E1=3A8000?=
+From: webmaster@localhost
+To: pawel.turowski3@wp.pl
+Date: Sun, 17 Nov 2019 18:44:40 -0000
+Message-ID: <157401628088.11132.1249460387461882282@LAPTOP-5U448I6K>
+
+Serwis otrzymał żądanie wyzerowanie hasła dla adresu pawel.turowski3@wp.pl
+Kliknij w poniższy link:
+http://127.0.0.1:8000/accounts/reset/Mg/5bi-1d1caebf10362bbc1f9b/
+Twoja nazwa użytkownika {user.get_username}
+-------------------------------------------------------------------------------

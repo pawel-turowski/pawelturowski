@@ -1,0 +1,38 @@
+{% extends "news/base.html" %}
+{% block title %}
+    {{post.title}}
+{% endblock %}
+
+{% block content %}
+
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content | linebreaks }}</p>
+
+
+
+<article>
+    <p>
+        {% with comments.count as no_of_comments %}
+        <h3>{{ no_of_comments }} komentarz{{ no_of_comments | pluralize:"y" }} </h3>
+        {% endwith %}
+        {%  for comment in comments %}
+            <p>
+                {{ forloop.counter }}. Komentarz dodany przez
+                  {{  comment.name }} w {{ comment.created }}<br />
+                {{ comment.content | linebreaks }}
+            </p>
+        {% endfor %}
+    </p>
+</article>
+
+    <h3>Dodaj nowy komentarz</h3>
+    <form action="." method="post">
+    <table>
+        {% for field in form %}
+            <tr><td>{{ field.label_tag }}</td><td>{{ field }}</td></tr>
+        {% endfor %}
+    </table>
+    {% csrf_token %}
+    <input type="submit" value="Dodaj komentarz" />
+    </form>
+{% endblock %}

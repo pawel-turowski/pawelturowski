@@ -1,0 +1,14 @@
+{% extends "news/base.html" %}
+{% block title %}
+    Lista postów
+{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+        <h5>{{ post.title }}</h5>
+        <a href="{{ post.get_absolute_url }}">Zawartość posta...</a>
+    {% endfor %}
+
+    {% include "news/pagination.html" with page=posts %}
+
+{% endblock %}
