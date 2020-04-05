@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/37a1cf9a7d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            background-color: #97B735;
+            color: white;
+        }
+        nav ul{
+            list-style: none;
+            padding: 10px;
+            margin: 0px;
+        }
+        nav ul li{
+            display: inline;
+            margin: 20px;
+        }
+        nav ul li button{
+            padding: 5px;
+            color: #97B735;
+            font-size: 16px;
+            border-radius: 5px;
+
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        #banner{
+            width: 100%;
+        }
+        #obrazki{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+            background-color: #f4f4f4;
+            
+        }
+        article{
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-around;
+            background-color: #54504f;
+            color: white;
+        }
+        article h2{
+            color: #97B735;
+            margin-bottom: 10px;
+        }
+        article p a{
+            color: #97B735;
+        }
+        .kolumna{
+            padding: 30px;
+
+        }
+        #autor{
+            margin-top: 100px;
+            background-image: url('assets/avatar.png');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 100px;
+            padding-left: 110px;
+        }
+        footer{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-evenly;
+            background-color: #97B735;
+            color: white;
+            padding: 5px 100px 30px 100px;
+
+        }
+        footer div{
+            padding: 20px;
+            
+        }
+        footer h4{
+            font-size: 15px;
+            margin: 10px 0 0 0;
+        }
+        footer p{
+            margin: 0;
+            font-size: 10px;
+        }
+        footer h4 i{
+            font-size: 25px;
+        }    
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><button>Community</button></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Inspiration</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Jobs</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <img id="banner" src="assets/main_baner.jpg">
+    </aside>
+    <section>
+        <article>
+            <div class="kolumna">
+                <h2>Welcome to our website</h2>
+                <p>odnawialne źródła energii, których wykorzystywanie nie wiąże się z długotrwałym ich deficytem, 
+                    ponieważ ich zasób odnawia się w krótkim czasie (surowce odnawialne).
+                    Takimi źródłami są między innymi wiatr, promieniowanie słoneczne, opady, pływy morskie, fale morskie, geotermia
+                     i uran poddawany recyklingowi. <a href="#">view more...</a></p>
+                <h2>About as</h2>
+                <p>Odnawialne źródła energii zaspokajały w 2017 roku 18,1% zapotrzebowania ludzkości na energię (według REN21,
+                     w tym uwzględniono 7,5% zużycia przez tradycyjne opalanie drewnem i innego typu biomasą, oraz 10,6% – nowoczesne technologie OZE)
+                     <a href="#">view more...</a></p>
+            </div>
+            <div class="kolumna">
+                <div id="autor">
+                    <h2>What we do:</h2>
+                    <p>Odnawialne źródła energii zaspokajały w 2017 roku 18,1% zapotrzebowania ludzkości na energię (według REN21,
+                        w tym uwzględniono 7,5% zużycia przez tradycyjne opalanie drewnem i innego typu biomasą, oraz 10,6% – nowoczesne technologie OZE)
+                        <a href="#">view more...</a></p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <aside id="obrazki">
+        <div><img src="assets/pic1.jpg"></div>
+        <div><img src="assets/pic2.jpg"></div>
+        <div><img src="assets/pic3.jpg"></div>
+    </aside>
+    <footer>
+        <div>
+            <h4><i class="fas fa-map-marker-alt"></i> Tytuł</h4>
+            <p>Najobfitszym źródłem energii odnawialnej jest energia słoneczna. Do powierzchni Ziemi dociera 86 petawatów mocy, czyli około 5000 razy więcej, niż wynosi zapotrzebowanie ludzkości </p>
+        </div>
+        <div>
+            <h4><i class="fas fa-globe"></i> Tytuł</h4>
+            <p>Najobfitszym źródłem energii odnawialnej jest energia słoneczna. Do powierzchni Ziemi dociera 86 petawatów mocy, czyli około 5000 razy więcej, niż wynosi zapotrzebowanie ludzkości </p>
+        </div>
+        <div>
+            <h4><i class="far fa-lightbulb"></i> Tytuł</h4>
+            <p>Najobfitszym źródłem energii odnawialnej jest energia słoneczna. Do powierzchni Ziemi dociera 86 petawatów mocy, czyli około 5000 razy więcej, niż wynosi zapotrzebowanie ludzkości </p>
+        </div>
+        <div>
+            <h4><i class="fas fa-tools"></i> Tytuł</h4>
+            <p>Najobfitszym źródłem energii odnawialnej jest energia słoneczna. Do powierzchni Ziemi dociera 86 petawatów mocy, czyli około 5000 razy więcej, niż wynosi zapotrzebowanie ludzkości </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
